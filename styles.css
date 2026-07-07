@@ -102,6 +102,23 @@ a {
   padding-top: 96px;
   padding-bottom: 64px;
   position: relative;
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.hero-content {
+  flex: 1;
+}
+
+.hero-photo {
+  flex-shrink: 0;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 6px solid var(--bg-card);
+  box-shadow: var(--shadow);
 }
 
 .eyebrow {
@@ -326,6 +343,21 @@ a {
 @media (max-width: 640px) {
   .hero h1 {
     font-size: 48px;
+  }
+
+  .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 24px;
+  }
+
+  .hero-photo {
+    width: 140px;
+    height: 140px;
+  }
+
+  .hero-actions {
+    justify-content: center;
   }
 
   .project-grid {
