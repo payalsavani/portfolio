@@ -5,21 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Payal Savani — Content Writer &amp; Editor Portfolio</title>
   <meta name="description" content="Content writer and editor turning technical research into clear, engaging web and blog content, with AI-assisted writing and editing workflows." />
+
+  <link rel="icon" href="images/logo.svg?v=4" type="image/svg+xml" />
+  <link rel="icon" href="images/favicon.ico?v=4" sizes="any" />
+  <link rel="icon" href="images/favicon-32.png?v=4" type="image/png" sizes="32x32" />
+  <link rel="icon" href="images/favicon-16.png?v=4" type="image/png" sizes="16x16" />
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png?v=4" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
   <header class="nav" id="top">
     <div class="container nav-inner">
-      <a href="#top" class="logo">Payal Savani</a>
+      <a href="#top" class="logo">
+        <img src="images/logo.svg" alt="" class="logo-mark" width="32" height="32" />
+        <span>Payal Savani</span>
+      </a>
       <nav class="nav-links">
         <a href="#about">About</a>
-        <a href="#work">Experience</a>
-        <a href="#skills">Skills</a>
-        <a href="#education">Education</a>
+        <a href="#work">Services</a>
+        <a href="#published-work">Published Work</a>
         <a href="#contact">Contact</a>
       </nav>
     </div>
@@ -28,121 +37,71 @@
   <main>
     <section class="hero container">
       <div class="hero-content">
-        <p class="eyebrow">Hi, I'm</p>
+        <p class="eyebrow">Content Writer &amp; Editor</p>
         <h1>Payal Savani</h1>
-        <h2>Content Writer &amp; Editor</h2>
         <p class="tagline">I turn dense technical and research content into copy that's clear, accurate, and easy to follow — now focused on AI-assisted writing and editing for web and blog.</p>
         <div class="hero-actions">
-          <a href="#work" class="btn btn-primary">Read my work</a>
+          <a href="#work" class="btn btn-primary">What I do</a>
           <a href="#contact" class="btn btn-secondary">Get in touch</a>
         </div>
       </div>
       <img src="images/profile.png" alt="Payal Savani" class="hero-photo" />
     </section>
 
+    <hr class="divider" />
+
     <section id="about" class="section container">
-      <h3 class="section-label">About</h3>
+      <h3 class="section-label"><span>01</span> About</h3>
       <p class="about-text">
-        Content writer and editor with a background in embedded software development and ASIC
-        physical design. That technical foundation — years spent translating dense engineering
-        processes into clear explanations — now shapes how I approach content: precise,
-        well-researched, and easy for any reader to follow. Currently focused on AI-assisted
-        content creation and editing, using tools like ChatGPT, Gemini, and Claude to draft and
-        refine web and blog content that matches each client's tone and brand voice.
+        Content writer and editor with an engineering background. I moved from Project Engineering
+        at Wipro into full-time writing after a paid favor (summarising a research paper for a
+        professor) turned into a passion. I write everything from social media posts to
+        well-researched articles, with a current focus on AI-assisted content creation and editing,
+        using tools like ChatGPT, Gemini, and Claude to draft and refine copy that matches each
+        client's voice.
       </p>
       <p class="location">Based in Ahmedabad, Gujarat, India</p>
     </section>
 
+    <hr class="divider" />
+
     <section id="work" class="section container">
-      <h3 class="section-label">Experience</h3>
-      <div class="experience-list">
-        <article class="experience-card">
-          <div class="experience-header">
-            <div>
-              <h4 class="experience-role">Content Writer &amp; Editor</h4>
-              <p class="experience-company">Fuselio Pvt Ltd</p>
-            </div>
-            <span class="experience-dates">July 2025 – Present</span>
-          </div>
-          <ul>
-            <li>Write website and blog content by crafting targeted prompts across ChatGPT, Gemini, and Claude, then refine the AI-generated drafts for accuracy, clarity, and originality.</li>
-            <li>Edit and publish website content using WordPress and the company's in-house CMS tool, as well as Claude for AI-assisted editing and quality checks.</li>
-            <li>Review and rewrite blog posts to match each client's specific tone and style guidelines, ensuring consistency with brand voice.</li>
-            <li>Conduct ongoing quality checks across live website pages to catch content, formatting, and consistency issues before and after publishing.</li>
-          </ul>
+      <h3 class="section-label"><span>02</span> Services</h3>
+      <div class="service-list">
+        <article class="service-entry">
+          <h4 class="service-title">Blog, Article &amp; Web Copy</h4>
+          <p class="service-blurb">I draft blog posts, articles, and website copy with ChatGPT, Gemini, and Claude, then edit hard for accuracy, clarity, and a voice that doesn't sound generated — publishing straight into WordPress or an in-house CMS, with ongoing quality checks on live pages.</p>
         </article>
-        <article class="experience-card">
-          <div class="experience-header">
-            <div>
-              <h4 class="experience-role">Freelance Writer</h4>
-              <p class="experience-company">IEEE Sensors Alert</p>
-            </div>
-            <span class="experience-dates">Dec 2022 – July 2025</span>
-          </div>
-          <ul>
-            <li>Worked as a freelance technical writer for the IEEE Sensors Council, condensing complex research papers into clear, concise summaries.</li>
-            <li>Translated technical jargon into easy-to-understand language for a wider audience, bridging the gap between cutting-edge sensor research and the broader scientific community.</li>
-            <li>Promoted knowledge dissemination and fostered a more engaged scientific readership through accessible writing.</li>
-          </ul>
+        <article class="service-entry">
+          <h4 class="service-title">Technical &amp; Research Writing</h4>
+          <p class="service-blurb">Dense material, made readable. I've condensed IEEE sensor research into clear, concise summaries for a broader audience — translating jargon into language anyone can follow without losing the substance.</p>
         </article>
-        <article class="experience-card">
-          <div class="experience-header">
-            <div>
-              <h4 class="experience-role">Freelance Content Writer</h4>
-              <p class="experience-company">Independent Clients</p>
-            </div>
-            <span class="experience-dates">Dec 2022 – July 2025</span>
-          </div>
-          <ul>
-            <li>Wrote website and marketing content for clients across diverse industries, including diamond &amp; jewellery, salons, food, and cosmetics.</li>
-            <li>Adapted tone, style, and messaging for each industry and client, from luxury and lifestyle to food and beauty.</li>
-            <li>Researched each niche to produce accurate, engaging, and audience-appropriate content on tight turnarounds.</li>
-          </ul>
-        </article>
-        <article class="experience-card">
-          <div class="experience-header">
-            <div>
-              <h4 class="experience-role">Project Engineer, Physical Design</h4>
-              <p class="experience-company">Wipro Pvt. Ltd</p>
-            </div>
-            <span class="experience-dates">June 2021 – April 2022</span>
-          </div>
-          <ul>
-            <li>Worked as an ASIC design Project Engineer, managing physical design from floorplan to chip finish at the module level.</li>
-            <li>Implemented optimization techniques to enhance power performance and efficiency, building a strong foundation in structured, detail-oriented technical work.</li>
-          </ul>
+        <article class="service-entry">
+          <h4 class="service-title">Brand, Marketing &amp; Social Media Copy</h4>
+          <p class="service-blurb">Tone that shifts with the client — luxury and lifestyle for jewellery, warm and approachable for food and beauty — across product descriptions, social media content, and email or newsletter copy, researched fast and delivered on tight turnarounds.</p>
         </article>
       </div>
     </section>
 
-    <section id="skills" class="section container">
-      <h3 class="section-label">Skills</h3>
-      <div class="skills-list">
-        <span class="skill-pill">Content Writing &amp; Editing</span>
-        <span class="skill-pill">AI-Assisted Content Creation (ChatGPT, Gemini, Claude)</span>
-        <span class="skill-pill">Website Content QA</span>
-        <span class="skill-pill">WordPress (CMS Publishing &amp; Editing)</span>
-        <span class="skill-pill">Brand Tone &amp; Voice Matching</span>
-        <span class="skill-pill">SEO</span>
-        <span class="skill-pill">Social Media Management</span>
-        <span class="skill-pill">Creative Writing</span>
+    <hr class="divider" />
+
+    <section id="published-work" class="section container">
+      <h3 class="section-label"><span>03</span> Published Work</h3>
+      
+      <div class="published-intro-text" style="max-width: 700px; margin-top: 1.5rem;">
+        <p style="font-size: 1.15rem; line-height: 1.6; opacity: 0.9; margin-bottom: 1rem;">
+          I write everything from dense technical IEEE research papers to fast-paced social media copy and high-converting marketing campaigns. Whether it's crafting educational museum display panels or writing deep-dive lifestyle blogs, I love turning complex ideas into stories that connect with people. 
+        </p>
+        <p style="font-size: 1.15rem; font-weight: 500;">
+          Want to see the actual samples? A full look at my writing is just a <a href="work-details.html" style="color: inherit; text-decoration: underline; font-weight: 600;">click away</a>.
+        </p>
       </div>
     </section>
 
-    <section id="education" class="section container">
-      <h3 class="section-label">Education</h3>
-      <div class="education-card">
-        <div>
-          <h4 class="experience-role">Master of Engineering</h4>
-          <p class="experience-company">VGEC, Chandkheda, Ahmedabad</p>
-        </div>
-        <span class="experience-dates">2019 – 2021</span>
-      </div>
-      <p class="languages">Languages: English, Hindi</p>
-    </section>
+    <hr class="divider" />
 
     <section id="contact" class="section container">
-      <h3 class="section-label">Contact</h3>
+      <h3 class="section-label"><span>04</span> Contact</h3>
       <p class="contact-text">Have a project in mind or just want to say hi? My inbox is open.</p>
       <a href="mailto:payalsavani1992@gmail.com" class="btn btn-primary">payalsavani1992@gmail.com</a>
       <p class="phone">+91 9558416558</p>
